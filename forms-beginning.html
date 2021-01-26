@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Example</title>
+</head>
+<body
+bgcolor="FFEBCD">
+    <h1 align="center">Application Form for  Online Traning</h1>
+    <form action="thx for registration.html">
+        <fieldset title="Personal Information">
+            <b>Name:</b> <input type="text" required> <br>
+            <b>Surname:</b>  <input type="text" required> <br>
+            <b>Age:</b>  <input type="number"required> <br>
+            <b>E-mail:</b>  <input type="text" required> <br>
+            <b>Cell phone:</b>  <input type="number" required> <br>
+           
+        </fieldset>
+        <fieldset title="terms and conditions">
+            <h3>Read the <a href="terms-conditions.html" target="_blank"> terms and conditios</a> in order to complete the form</h3>
+            <input type="checkbox" name="terms|conditions" id="terms" checked required> I agree with <a href="terms-conditions.html">terms and conditions</a>
+            <br>
+            <br>
+        </fieldset>
+
+        <fieldset title="Course information">
+            <b>Choose Course:</b><br>
+            <select name="" id="" required>
+                <optgroup label="Basic Courses">
+                    <option value="">HTML BASIC LEVEL</option>
+                    <option value="">CSS BASIC LEVEL</option>
+                    <option value="">JAVA SCRIPT BASIC LEVEL</option>
+                </optgroup>
+                <optgroup label="Advanced Courses">
+                    <option value="">HTML ADVANCED LEVEL </option>
+                    <option value="">CSS ADVANCED LEVEL</option>
+                    <option value="">JAVA SCRIPT ADVANCED LEVEL</option>
+                </optgroup>
+
+            </select>
+            <br>
+            <b>Choose type of course:</b> <br>
+            <select name="" id=""required>
+                <option value="">Simple</option>
+                <option value="">Intensive</option>
+            </select>
+            <br>
+            <b>Choosу favorable time</b> <br>
+            <select name="" id="" required>
+                <optgroup label="Morning groups">
+                    <option value="">09:00</option>
+                    <option value="">10:00</option>
+                </optgroup>
+                <optgroup label="Evening groups">
+                    <option value="">19:00</option>
+                    <option value="">20:00</option>
+                </optgroup>    
+            </select>
+        </fieldset>
+         
+        <hr>
+        <button>APPLY</button>
+
+    </form>
+    
+</body>
+</html>
